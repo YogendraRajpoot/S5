@@ -13,8 +13,27 @@ export const Login = () => {
   };
   const handlesubmit = (event) => {
     event.preventDefault();
-    const detail = [username.email, username.password];
-    console.log(detail);
+    fetchData();
+    async function fetchData() {
+      const response = await fetch("http://localhost:3001/users/");
+      const data = await response.json();
+
+      data.forEach((obj) => {
+        Object.entries(obj).forEach(([key, value]) => {
+          console.log(`${key} ${value}`);
+          var datashow=document.getElementsByClassName("data-show")
+          datashow.append(`${key}-${value}`)
+          return(
+            <div>
+              {key}-{value}
+            </div>
+          )
+        });
+        console.log('-------------------');
+      });
+    }
+    // const detail = [username.email, username.password];
+    // console.log(detail);
   };
 
   return (
@@ -53,6 +72,9 @@ export const Login = () => {
         <br />
         <button type="submit">Login</button>
       </form>
+      <div className="data-show">
+
+      </div>
     </>
   );
 };

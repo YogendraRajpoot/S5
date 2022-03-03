@@ -4,8 +4,27 @@
       "id": 1,
       "title": "json-server",
       "author": "typicode"
+    },
+    {
+      "username": "YOGENDRARAJPOOT",
+      "email": "",
+      "phone": "",
+      "DOB": "",
+      "gender": "",
+      "state": "",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "username": "YOGENDRARAJPOOT",
+      "email": "",
+      "phone": "",
+      "DOB": "",
+      "gender": "",
+      "state": "",
+      "password": "123456",
+      "id": 3
     }
-    
   ],
   "posts": [
     {
