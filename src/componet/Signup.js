@@ -1,3 +1,4 @@
+import "../App.css";
 import React, { useState } from "react";
 
 export const Signup = () => {
@@ -33,13 +34,13 @@ export const Signup = () => {
   };
   return (
     <>
-      <div>
+      <div className="Home-1">
         <a href="/">Home</a>
       </div>
-      <div>
+      <div className="Login-1">
         <a href="/Login">Login</a>
       </div>
-      <div>Signup</div>
+      <div className="Signup-1">Signup</div>
       <form onSubmit={handlesubmit}>
         <br />
         <label htmlFor="username">Username</label>

@@ -19,11 +19,11 @@ export const Login = () => {
 
   return (
     <>
-      <div>
+      <div className="Home-2">
         <a href="/">Home</a>
       </div>
-      <div>Login</div>
-      <div>
+      <div className="Login-2">Login</div>
+      <div className="Signup-2">
         <a href="/Signup">Signup</a>
       </div>
       <form onSubmit={handlesubmit}>

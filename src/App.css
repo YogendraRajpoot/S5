@@ -1,7 +1,7 @@
 .App {
   text-align: center;
 }
-.home{
+.home {
   position: absolute;
   background-color: rgb(255, 162, 153);
   height: 10vh;
@@ -10,7 +10,7 @@
   margin-left: 40%;
   font-size: 5vh;
   font-weight: 600;
-
+  border-radius: 5%;
 }
 .home-bottom {
   position: absolute;
@@ -24,23 +24,137 @@
   align-items: center;
   font-size: 5vh;
   font-weight: 600;
-  
-  
+  border-radius: 5%;
+  border: 2px solid black;
 }
-.home-bottom a{
+.home-bottom a {
   text-decoration: none;
   color: black;
 }
-.home-bottom >div{
+.home-bottom > div {
   border: 2px solid black;
-  padding: 5%;  
+  padding: 5%;
+  border-radius: 5%;
   box-shadow: 6px 11px 11px grey;
 }
-.home-bottom >div:hover {
+.home-bottom > div:hover {
   background-color: black;
-  
 }
-.home-bottom a:hover{
+.home-bottom a:hover {
   text-decoration: none;
   color: rgb(255, 162, 153);
+}
+.home-bottom > a {
+  text-decoration: none;
+  color: black;
+}
+.Home-1 {
+  position: absolute;
+  background-color: rgb(255, 162, 153);
+  height: 10vh;
+  width: 25%;
+  text-align: center;
+  margin-left: 40%;
+  font-size: 5vh;
+  border-radius: 5%;
+  font-weight: 600;
+}
+.Home-1 > a {
+  text-decoration: none;
+  color: black;
+}
+.Login-1 {
+  position: absolute;
+  background-color: rgb(255, 162, 153);
+  height: 10vh;
+  width: 25%;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 40%;
+  font-size: 5vh;
+  font-weight: 600;
+  border-radius: 5%;
+}
+.Login-1 > a {
+  text-decoration: none;
+  color: black;
+}
+.Signup-1 {
+  position: absolute;
+  background-color: rgb(255, 162, 153);
+  height: 10vh;
+  width: 25%;
+  text-align: center;
+  margin-top: 20%;
+  margin-left: 40%;
+  font-size: 5vh;
+  font-weight: 600;
+  border-radius: 5%;
+}
+.Signup-1 ~ form {
+  position: absolute;
+  background-color: darkgrey;
+  height: auto;
+  width: 45%;
+  text-align: center;
+  margin-top: 32%;
+  margin-left: 31%;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 22px;
+}
+
+.Home-2 {
+  position: absolute;
+  background-color: rgb(255, 162, 153);
+  height: 10vh;
+  width: 25%;
+  text-align: center;
+  margin-left: 40%;
+  font-size: 5vh;
+  font-weight: 600;
+  border-radius: 5%;
+}
+.Home-2 > a {
+  text-decoration: none;
+  color: black;
+}
+.Login-2 {
+  position: absolute;
+  background-color: rgb(255, 162, 153);
+  height: 10vh;
+  width: 25%;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 40%;
+  font-size: 5vh;
+  font-weight: 600;
+  border-radius: 5%;
+}
+.Signup-2 > a {
+  text-decoration: none;
+  color: black;
+}
+.Signup-2 {
+  position: absolute;
+  background-color: rgb(255, 162, 153);
+  height: 10vh;
+  width: 25%;
+  text-align: center;
+  margin-top: 20%;
+  margin-left: 40%;
+  font-size: 5vh;
+  font-weight: 600;
+}
+.Signup-2 ~ form {
+  position: absolute;
+  background-color: darkgrey;
+  height: auto;
+  width: 45%;
+  text-align: center;
+  margin-top: 32%;
+  margin-left: 31%;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 22px;
 }
