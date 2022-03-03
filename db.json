@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+    
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "post_title": "",
+      "aithod_id": 1,
+      "authod_username": ""
+    }
+  ],
+  "comments": {
+    "id": 1,
+    "aithod_id": 1,
+    "post_id": "",
+    "comment_details": ""
+  }
+}
